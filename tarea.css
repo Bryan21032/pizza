@@ -286,9 +286,9 @@ main>div {
 }
 
 .carousel-wrapper {
-    height: 190px;
+    height: 400px;
     position: relative;
-    width: 400px;
+    width: 600px;
     display: block;
     margin: 50px auto;
     border: 2px solid black;
