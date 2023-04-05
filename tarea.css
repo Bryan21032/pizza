@@ -347,7 +347,7 @@ main>div {
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url('img2/p2.jfif');
+    background: url('img2/h2.jpg');
     background-size: cover;
 }
 
@@ -357,9 +357,10 @@ main>div {
 }
 
 .item-3 {
-    background: url('img2/h2.jpg');
+    background: url('img2/p2.jfif');
     background-size: cover;
 }
+
 
 *:target~.item-1 {
     opacity: 0;
