@@ -43,7 +43,15 @@ html {
     display: flex;
     flex-flow: column;
 }
-
+.comprabtn{
+    display: auto;
+    background-color: red;
+    border-radius: 10px;
+    padding: 5px 1px;
+    text-decoration: none;
+    color: white;
+    
+}
 hr {
     background: #FFC300;
     height: 2.5px;
