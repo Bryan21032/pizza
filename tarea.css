@@ -74,7 +74,7 @@
     max-width: 960px;
     margin: 0px auto;
 }
-img{
+.gallery>img{
     width: 100%;
     margin-bottom: 0.5em;
     display: block;
