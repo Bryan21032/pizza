@@ -227,6 +227,13 @@ ul {
     font: bold 54px Arial, sans-serif;
     color: #FFFFFF;
 }
+details{
+    background: #f2f2f2;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+ }
 
 #menuprincipal {
     width: 96%;
