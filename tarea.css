@@ -180,7 +180,11 @@ main>div {
         width: 100%;
         margin-right: 0px;
     }
-
+    #articulonoticias { 
+        width: 100%;
+        margin-right: 0px;
+         
+       }
     #infoadicional {
         width: 90%;
         padding: 5%;
