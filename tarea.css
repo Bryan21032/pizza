@@ -390,20 +390,20 @@ main>div {
     }
 
     #infoadicional {
-        width: 100%;
+        width: 90%;
         padding: 5%;
         margin-top: 20px;
     }
     .carousel-wrapper {
-       width: 100%;
-       padding: 5%;
+       width: 90%;
+       padding: 10%;
        margin-top: 20px;
 
     }
     
     .carousel-item {
        width: 90%;
-       padding: 5%;
+       padding: 10%;
        margin-top: 20px;
 
 
