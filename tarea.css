@@ -381,9 +381,9 @@ main>div {
         margin-top: 20px;
     }
     .carousel-wrapper {
-        height: 150px;
+        height: 190px;
         position: relative;
-        width: 200px;
+        width: 300px;
         display: block;
         margin: 10px auto;
         border: 2px solid black;
