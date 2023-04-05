@@ -394,6 +394,17 @@ main>div {
         padding: 5%;
         margin-top: 20px;
     }
+    .carousel-wrapper {
+        width: 90%;
+        margin-right: 0px;
+
+    }
+    
+    .carousel-item {
+        width: 90%;
+        margin-right: 0px;
+
+    }
 }
 
 #infoadicional {
