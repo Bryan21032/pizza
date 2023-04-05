@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="tarea.css">
+    <title>Galleria</title>
+    <link rel="stylesheet" href="index.html">
+    <script>
+        var visible = false;
+        function iniciar() {
+        var elemento = document.getElementById("menu-img");
+        elemento.addEventListener("click", mostrarMenu);
+        }
+        function mostrarMenu() {
+        var elemento = document.getElementById("menuprincipal");
+        if (!visible) {
+        elemento.style.display = "block";
+        visible = true;
+        } else {
+        elemento.style.display = "none";
+        visible = false;
+        }
+        }
+        window.addEventListener("load", iniciar);
+    </script>
+</head>
+
+<body>
+    <header id="cabeceralogo">
+     <div>
+           <h1 class="mi1">Formulario</h1>
+      </div>
+        <nav id="menuicono">
+            <img src="iconomenu.png" width="35" height="28" id="menu-img" alt="menu-img">
+        </nav>
+    </header>
+    <nav id="menuprincipal">
+        <ul id="listamenu">
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="nosotros.html">Nosotros</a>
+            </li>
+            <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
+            <li><a href="tarea.html">Formulario</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="https://wa.me/+59165771556" "sin signo" + "+numero telefono">contactos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <form id="articulosprincipales">
+                <p class="mi4"><label>Nombre: <input type="text" name="nombre"
+                 maxlength="Hombre"></label></p>
+                <p class="mi4"><label>Edad: <input type="date" name="fecha" value="2000-02-05"></p>
+                <p class="mi4"><label>Correo: <input type="email" name="correo"></label></p>
+                <p class="mi4"><label>Teléfono: <input type="tel" name="telefono"></label></p>
+                <p class="mi4"><label>Tamaño:<input type="checkbox" name="Pizza" value="Pequeño" checked> Pequeño</label></p>
+                <p class="mi4"><label>Tamaño:<input type="checkbox" name="Pizza" value="Mediano" checked> Mediano</label></p>
+                <p class="mi4"><label>Tamaño:<input type="checkbox" name="Pizza" value="Grande" checked> Grande</label></p>
+                    
+                <form name="formulario" method="get" action="procesar.php">
+                    <p class="mi4">
+                    <label for="listado">Pizas: </label>
+                    <select name="Pizas" id="listado">
+                    <option value="1">Carnivora</option>
+                    <option value="2">Vegetariana</option>
+                    <option value="3">Clasica</option>
+                    <option value="4">con queso</option>
+                    </select>
+                </p>
+                <form name="formulario" method="get" action="procesar.php">
+                    <p class="mi4">
+                    <label for="listado">Bebidas: </label>
+                    <select name="Bebidas" id="listado">
+                    <option value="1">Cocacola</option>
+                    <option value="2">Simba</option>
+                    <option value="3">Fanta</option>
+                    <option value="4">Pepsi</option>
+                    </select>
+                </p>
+                <p class="mi4"><input type="submit" value="Enviar"></p>
+            </form>
+            
+        </section>
+    </main>
+    <footer id="pielogo">
+        <div>
+            <section class="seccionpie">
+                <h1>Sitio Web</h1>
+                <p><a href="index.html">Principal</a></p>
+                <p><a href="menu.html">Menu</a></p>
+                <p><a href="nosotros.html">Nosotros</a>
+                </p>
+                <p><a href="tarea.html">Formulario</a></p>
+                <p><a href="fotos.html">Galeria</a></p>
+            </section>
+            <section class="seccionpie">
+                <h1>Ayuda</h1>
+                <p><a href="contactos.html">Contacto</a></p>
+                <p><a href="preguntas.html">Preguntas Frecuentes</a></p>
+            </section>
+            <section class="seccionpie">
+                <address>Bolivia, Cochabamba</address>
+                <small>&copy; Derechos Reservados 2023</small>
+            </section>
+            <div class="recuperar"></div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+    
+    </html>
+    </body>
+    </html>
