@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet"  href="tarea.css">
     <title>Pizza</title>
-    <link rel="stylesheet" href="index.html">
+    
+    <link rel="stylesheet" href="tarea.css">
     <script>
         var visible = false;
         function iniciar() {
@@ -26,6 +26,7 @@
         window.addEventListener("load", iniciar);
     </script>
 </head>
+
 <body>
     <header id="cabeceralogo">
      <div>
@@ -42,7 +43,7 @@
             <li><a href="nosotros.html">Nosotros</a>
             </li>
             <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
-            <li><a href="tarea.html">Formulario</a></li>
+            <li><a href="pedido.html">Formulario</a></li>
             <li><a href="galeria.html">Galeria</a></li>
             <li><a href="Contactenos.html">contactos</a></li>
         </ul>
@@ -69,14 +70,42 @@
           </div>
           
         </div>
+        <selection >
         <article id="articulonoticias">
           <h1>HOLA</h1>
           <span>>HTML, sigla en inglés de HyperText Markup Language 
             (lenguaje de marcas de hipertexto), hace referencia al lenguaje de 
             marcado para la elaboración de páginas web. Es un estándar que sirve de 
-            referencia del software
+            referencia del software que conecta con la elaboración de páginas web 
+            en sus diferentes versiones, define una estructura básica y un código 
+            (denominado código HTML) para la definición de contenido de una página 
+            web, como texto, imágenes, vídeos, juegos, entre otros. Es un estándar 
+            a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, 
+            organización dedicada a la estandarización de casi todas las 
+            tecnologías ligadas a la web, sobre todo en lo referente a su escritura 
+            e interpretación.
           </span>
       </article>
+      <div class="carousel-wrapper">
+        <span id="item-1"></span>
+        <span id="item-2"></span>
+        <span id="item-3"></span>
+        <div class="carousel-item item-1">
+          <a href="#item-3" class="arrow-prev arrow"></a>
+          <a href="#item-2" class="arrow-next arrow"></a>
+        </div>
+    
+        <div class="carousel-item item-2">
+          <a href="#item-1" class="arrow-prev arrow"></a>
+          <a href="#item-3" class="arrow-next arrow"></a>
+        </div>
+    
+        <div class="carousel-item item-3">
+          <a href="#item-2" class="arrow-prev arrow"></a>
+          <a href="#item-1" class="arrow-next arrow"></a>
+        </div>
+        
+      </div>
       <br>
       <article id="articulonoticias">
         <span>HTML, sigla en inglés de HyperText Markup Language 
@@ -86,22 +115,15 @@
           en sus diferentes versiones, define una estructura básica y un código 
           (denominado código HTML) para la definición de contenido de una página 
           web, como texto, imágenes, vídeos, juegos, entre otros. Es un estándar 
-          a cargo del World Wide Web Consortium
+          a cargo del World Wide Web Consortium (W3C) o Consorcio WWW, 
+          organización dedicada a la estandarización de casi todas las 
+          tecnologías ligadas a la web, sobre todo en lo referente a su escritura 
+          e interpretación. 
         </span>
     </article>
     
     </main>
-    <div class="carousel-item item-2">
-      <a href="#item-1" class="arrow-prev arrow"></a>
-      <a href="#item-3" class="arrow-next arrow"></a>
-    </div>
-
-    <div class="carousel-item item-3">
-      <a href="#item-2" class="arrow-prev arrow"></a>
-      <a href="#item-1" class="arrow-next arrow"></a>
-    </div>
-    
-  </div>
+  
   <footer id="pielogo">
     <div>
         <section class="seccionpie">
@@ -111,11 +133,11 @@
             <p><a href="nosotros.html">Nosotros</a>
             </p>
             <p><a href="pedido.html">Formulario</a></p>
-            <p><a href="galeria.html">Galeria</a></p>
+            <p><a href="fotos.html">Galeria</a></p>
         </section>
         <section class="seccionpie">
             <h1>Ayuda</h1>
-            <p><a href="Contactenos.html">Contacto</a></p>
+            <p><a href="contactenos.html">Contacto</a></p>
             <p><a href="preguntas.html">Preguntas Frecuentes</a></p>
         </section>
         <section class="seccionpie">
@@ -125,5 +147,8 @@
         <div class="recuperar"></div>
     </div>
 </footer>
+<script src="./script.js"></script>
+
+</html>
 </body>
 </html>
