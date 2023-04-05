@@ -136,7 +136,7 @@ ul {
     border: none;
     background: none;
     outline: 0;
-    color: #fff;
+    color: black;
     border-bottom: 1px solid #d63031;
 }
 
@@ -150,7 +150,7 @@ ul {
 .contact-form form button:hover,
 .contact-form form button:focus {
     background: #d63031;
-    color: #fff;
+    color: black;
     transition: background-color 1s ease-out;
     outline: 0;
 }
