@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="tarea.css">
+    <title>Galleria</title>
+    <link rel="stylesheet" href="index.html">
+    <script>
+        var visible = false;
+        function iniciar() {
+        var elemento = document.getElementById("menu-img");
+        elemento.addEventListener("click", mostrarMenu);
+        }
+        function mostrarMenu() {
+        var elemento = document.getElementById("menuprincipal");
+        if (!visible) {
+        elemento.style.display = "block";
+        visible = true;
+        } else {
+        elemento.style.display = "none";
+        visible = false;
+        }
+        }
+        window.addEventListener("load", iniciar);
+    </script>
+</head>
+<body>
+    <header id="cabeceralogo">
+     <div>
+           <h1 class="mi1">Menus</h1>
+      </div>
+        <nav id="menuicono">
+            <img src="iconomenu.png" width="35" height="28" id="menu-img" alt="menu-img">
+        </nav>
+    </header>
+    <nav id="menuprincipal">
+        <ul id="listamenu">
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="nosotros.html">Nosotros</a>
+            </li>
+            <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
+            <li><a href="tarea.html">Formulario</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="Contactenos.html">contactos</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="wrap">
+            <h2>Menú de Restaurante</h2>
+            <div class="column-3 columns">
+              <div class="menu-restaurante" style="background: url(/img2/hambre.jfif) center;background-size: cover;">
+                <h3>Menú mediodia</h3>
+                <hr>
+                <h4>Primeros Platos</h4>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <br>
+                <h4>Segundos Platos</h4>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <br>
+                <p class="precio-menu">
+                  Precio:
+                  <span>17€</span>
+                </p>
+              </div>
+              <div class="menu-restaurante" style="background: url(/img2/hambre.jfif) center;background-size: cover;">
+                <h3>Menú noche</h3>
+                <hr>
+                <h4>Primeros Platos</h4>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <br>
+                <h4>Segundos Platos</h4>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <br>
+                <p class="precio-menu">
+                  Precio:
+                  <span>19€</span>
+                </p>
+              </div>
+              <div class="menu-restaurante" style="background: url(/img2/hambre.jfif) center;background-size: cover;">
+                <h3>Menú fin de semana</h3>
+                <hr>
+                <h4>Primeros Platos</h4>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <br>
+                <h4>Segundos Platos</h4>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+                <br>
+                <p class="precio-menu">
+                  Precio:
+                  <span>30bs</span>
+                </p>
+              </div>
+            </div>
+          </section>
+    </main>
+    <footer id="pielogo">
+        <div>
+            <section class="seccionpie">
+                <h1>Sitio Web</h1>
+                <p><a href="index.html">Principal</a></p>
+                <p><a href="menu.html">Menu</a></p>
+                <p><a href="nosotros.html">Nosotros</a>
+                </p>
+                <p><a href="tarea.html">Formulario</a></p>
+                <p><a href="fotos.html">Galeria</a></p>
+            </section>
+            <section class="seccionpie">
+                <h1>Ayuda</h1>
+                <p><a href="contactos.html">Contacto</a></p>
+                <p><a href="preguntas.html">Preguntas Frecuentes</a></p>
+            </section>
+            <section class="seccionpie">
+                <address>Bolivia, Cochabamba</address>
+                <small>&copy; Derechos Reservados 2023</small>
+            </section>
+            <div class="recuperar"></div>
+        </div>
+    </footer>
+</body>
+</html>
+</body>
+</html>
