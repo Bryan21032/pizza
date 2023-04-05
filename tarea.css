@@ -15,7 +15,7 @@
  width: 580px; 
  padding: 10px; 
  border: 1px solid; 
- column-count: 2; 
+ column-count: 3; 
  column-gap: 20px; 
  column-rule: 1px solid #000000; 
 }
@@ -74,7 +74,23 @@
     max-width: 960px;
     margin: 0px auto;
 }
+img{
+    width: 100%;
+    margin-bottom: 0.5em;
+    display: block;
+    outline: 2px solid #094660;
+    
+}
+.gallery{
+    columns: 5 100px;
+    column-gap: 0.5em;
+    transition: all 300ms;
+    position: relative;
+}
 
+.gallery img:hover{
+    transform: scale(1.15);
+}
 #menuprincipal li {
     display: inline-block;
     height: 35px;
