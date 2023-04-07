@@ -11,6 +11,15 @@
     padding: 0% 4%;
 
 }
+section {
+    background-color: #CCCCCC;
+    overflow: auto;
+}
+
+section img {
+    float: left;
+    margin: 0px 10px;
+}
 
 body {
    /* background: #17459b9f;*/
