@@ -245,7 +245,7 @@ details{
 
 #cabeceralogo {
     width: 96%;
-    height: 188px;
+    height: auto;
     
     background-repeat: no-repeat;
     padding: 0% 2%;
@@ -546,7 +546,7 @@ figure {
 #menuicono {
     display: none;
     width: 100%;
-    height: 38px;
+    height: auto;
     padding: 4px 1% 0px 1%;
     background-color: #9FC8D9;
     border-top: 1px solid #094660;
