@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet"  href="tarea.css">
-    <title>Nosotros</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contenos</title>
+    <link rel="stylesheet" href="tarea.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script>
         var visible = false;
         function iniciar() {
@@ -28,18 +33,18 @@
 
 <body>
     <header id="cabeceralogo">
-      <nav>  
-        <label for="" class="logo7">
-       <img src="img2/dominos.png"alt="logo-img">
-        </label>
-       <div>
-           <h1 class="mi1">Sobre Nosotros</h1>
-      </div></nav>
-        <nav id="menuicono">
-            <img src="iconomenu.png" width="35" height="28" id="menu-img" alt="menu-img">
-        </nav>
-    
-    </header>
+        <nav>  
+          <label for="" class="logo7">
+         <img src="img2/dominos.png"alt="logo-img">
+          </label>
+         <div>
+             <h1 class="mi1">Contactenos</h1>
+        </div></nav>
+          <nav id="menuicono">
+              <img src="iconomenu.png" width="35" height="28" id="menu-img" alt="menu-img">
+          </nav>
+      
+      </header>
     <nav id="menuprincipal">
         <ul id="listamenu">
             <li><a href="index.html">Principal</a></li>
@@ -52,53 +57,65 @@
             <li><a href="Contactenos.html">contactos</a></li>
         </ul>
     </nav>
-    <br>
     <main>
-        <section> 
-            
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo iste deleniti magni dolores nisi delectus, fuga laudantium? Eligendi doloribus laudantium nam laboriosam debitis sequi dignissimos sit nobis, odit, impedit non laborum ducimus accusantium nostrum vel ipsam vitae facilis. Vitae tempora pariatur quae laudantium sed voluptates aperiam. Officiis quia accusantium aliquam!</p> 
-            <img src="img2/dominos.png" width="120">
-         </section> 
-            <footer> 
-            <p class="mi3">Pizzeria Dominos</p> 
-            </footer> 
-        <section> 
-        <img src="img2/pizzeria.jfif"> 
-            <p>Dominos es una empresa con mucha personalidad e ingenio, ¿por qué no destacarlo? Hacer una sección «Quiénes somos» con un estilo de diseño innovador te ayudará a diferenciarte, además de definir tus tipos de consumidores.</p> 
-            <p>La Pizzeria Doninos es un gran ejemplo de cómo una descripción de empresas no tiene por qué ser seria. La empresa ha creado imágenes sencillas de sus productos con el apoyo de una tipografía divertida, logrando plasmar su personalidad con un diseño equilibrado y dejando así que sean estos rasgos los que les hablen a los visitantes.</p>
-        </section> 
-        <section>
-            <footer> 
-                <p class="mi3">Conocenos</p> 
-            </footer> 
-            <br>
-            <img src="img2/h1.jpg" alt="">
-           <p> Como puedes observar la calidad de nuestros productos es de la mas alta solamente se utilizan productos de la mas alta calidad para su ela boracion para la mayor satisfaccion de nuestras clientes de esta forma esperamos llegar a mas clientes con nuestro buen servisio y conveniencia ven unete a nuestra familia</p>
-           <p>Nuestro personal altamente capasitado usa los mejores utencilios con la mas ruguroza limpieza para la mayor seguridad de nustros clientes no solo eso si no que a dominos nos preocupa nuestra madre tierra cada uno de nuestros envases esta total mente hecho de materiales completamenta reciclables </p>
-        </section>
-    </main>
-    <footer id="pielogo">
-        <div>
-            <section class="seccionpie">
-                <h1>Sitio Web</h1>
-                <p><a href="index.html">Principal</a></p>
-                <p><a href="menu.html">Menu</a></p>
-                <p><a href="nosotros.html">Nosotros</a>
-                </p>
-                <p><a href="pedido.html">Formulario</a></p>
-                <p><a href="fotos.html">Galeria</a></p>
-            </section>
-            <section class="seccionpie">
-                <h1>Ayuda</h1>
-                <p><a href="Contactenos.html">Contacto</a></p>
-                <p><a href="preguntas.html">Preguntas Frecuentes</a></p>
-            </section>
-            <section class="seccionpie">
-                <address>Bolivia, Cochabamba</address>
-                <small>&copy; Derechos Reservados 2023</small>
-            </section>
-            <div class="recuperar"></div>
-        </div>
-    </footer>
+    <div class="content">
+
+        <h1 class="logo">Contactenos <span>aqui</span></h1>
+        <form name="formulario" method="get" action="procesar.php"></form>
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <h3>Contactenos</h3>
+                <form action="">
+                    <p>
+                        <label>Nombre Completo</label>
+                        <input type="text" name="Nombre Completo">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Celular</label>
+                        <input type="tel" name="Celular">
+                    </p>
+                    <p>
+                        <label>Affair</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                       <label>Mensaje</label> 
+                        <textarea name="Mensaje" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button>
+                            Enviar
+                        </button>
+                    </p>
+                </form>
+            </div></main>
+            <footer id="pielogo">
+                <div>
+                    <section class="seccionpie">
+                        <h1>Sitio Web</h1>
+                        <p><a href="index.html">Principal</a></p>
+                        <p><a href="menu.html">Menu</a></p>
+                        <p><a href="nosotros.html">Nosotros</a>
+                        </p>
+                        <p><a href="pedido.html">Formulario</a></p>
+                        <p><a href="galeria.html">Galeria</a></p>
+                    </section>
+                    <section class="seccionpie">
+                        <h1>Ayuda</h1>
+                        <p><a href="Contactenos.html">Contacto</a></p>
+                        <p><a href="preguntas.html">Preguntas Frecuentes</a></p>
+                    </section>
+                    <section class="seccionpie">
+                        <address>Bolivia, Cochabamba</address>
+                        <small>&copy; Derechos Reservados 2023</small>
+                    </section>
+                    <div class="recuperar"></div>
+                </div>
+            </footer>
+</html>
 </body>
 </html>
