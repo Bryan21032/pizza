@@ -8,7 +8,7 @@
 
 * main {
     margin: 10px;
-    padding: 0% 5%;
+    padding: 0% 4%;
 
 }
 
@@ -236,7 +236,7 @@ details{
 
 #cabeceralogo {
     width: 96%;
-    height: 150px;
+    height: 188px;
     
     background-repeat: no-repeat;
     padding: 0% 2%;
@@ -312,9 +312,9 @@ main>div {
 }
 
 .carousel-wrapper {
-    height: 190px;
+    height: 400px;
     position: relative;
-    width: 400px;
+    width: 600px;
     display: block;
     margin: 50px auto;
     border: 2px solid black;
@@ -374,6 +374,7 @@ main>div {
     background-size: cover;
 }
 
+
 *:target~.item-1 {
     opacity: 0;
 }
@@ -398,6 +399,7 @@ main>div {
     #articulonoticias {
         width: 90%;
         margin-right: 0px;
+
     }
     #articulonoticias2 {
         width: 90%;
@@ -413,29 +415,20 @@ main>div {
         padding: 5%;
         margin-top: 20px;
     }
-    
-}
-@media (max-width: 480px) {
     .carousel-wrapper {
-        height: 190px;
-        position: auto;
-        width: 300px;
-        display: block;
-        margin: 10px auto;
-        border: 2px solid black;
+       width: 90%;
+       padding: 5%;
+       margin-top: 10px;
+
     }
     
     .carousel-item {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        padding: 10px 10px;
-        opacity: 0;
-        transition: all 0.5s ease-in-out;
-    }
+       width: 90%;
+       padding: 5%;
+       margin-top: 10px;
 
+
+    }
 }
 #infoadicional {
     flex: 1;
