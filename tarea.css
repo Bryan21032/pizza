@@ -172,12 +172,6 @@ ul {
     .contact-wrapper>* {
         padding: 2em;
     }
-
-    .contact-info h4,
-    .contact-info ul,
-    .contact-info p {
-        text-align: left;
-    }
 }
 
 details{
